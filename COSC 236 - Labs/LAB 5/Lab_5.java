@@ -6,16 +6,15 @@ public class Lab_5 {
     public static void isVowel(Scanner input){
         System.out.print("\nEnter a character: ");
             char x = input.next().charAt(0);
+            x = Character.toLowerCase(x);
 
-
+            
         if (x == 'a' || x == 'e'|| x == 'i' || x == 'o' || x == 'u')
-            System.out.print("It is a vowel");
+            System.out.print("Vowel");
 
         else 
-            System.out.print("It is a consonent ");
+            System.out.print("Consonant");
     }
-
-
 
     //question 2 
     public static void prime(Scanner input){
@@ -60,11 +59,9 @@ public class Lab_5 {
 
     }
 
-
     //question 4 
     public static void java(Scanner input){
         input.nextLine();
-
 
         String check = "Java";
         System.out.print("Enter a string:\t");
@@ -74,52 +71,34 @@ public class Lab_5 {
             System.out.printf("Found %s",check);
         }
         else {
-             System.out.printf("No %s found",check);
+             System.out.printf("No \"%s\" found",check);
         }
-       
-
     }
     
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-
         System.out.println("Which Method do you want to run?");
         System.out.print("Method:\t");
             int method = input.nextInt();
 
-
-
         //question 1 
-        if (method == 1){
+        if (method == 1)
             isVowel(input);
-        }
-
-
+        
         //question 2 
-        else if (method == 2){
+        else if (method == 2)
             prime(input);
-        }
 
-        //question 3 
-        else if (method == 3){
+        //question 3
+        else if (method == 3)
             preFix(input);
-        }
 
         //question 4
-        else {
+        else 
             java(input);
-        }
-
-            
-      
         
-
-  
-
-        input.close();
         
-            
-        
+        input.close();        
     }
 }
