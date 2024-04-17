@@ -3,27 +3,21 @@ import java.util.*;
 class lab_9{
     /** 1.
      * a method that accepts an array of integers (size and elements from the console) and rearranges its elements so that all even values appear before all odds. For example, if the array is [5, 4, 2, 11, 9, 10, 4, 7, 3], then after the method has been called, one acceptable ordering of the elements would be [4, 2, 10, 4, 5, 11, 9, 7, 3]. The exact order of the elements does not matter, so long as all even values appear before all odd values. The array might contain no even elements or no odd elements. */
-    static int[] Method1(int[] arr){System.out.println();
+    static int[] Method1(Scanner Console){System.out.println();
        
+        int[] arr = Prompt_Array(Console);
+
         int temp;
-        //todo
+        
         for (int l = 0; l < arr.length;l++){
             for (int r = l+1;r<arr.length;r++){
                 if (arr[l] % 2 != 0 && arr[r] % 2 == 0){
                     //swap
-
                     temp = arr[r];
                     arr[r] = arr[l];
                     arr[l] = temp;
                 }
-
             }
-                
-
-            
-            
-            
-            
         }
                   
         return arr;
@@ -99,13 +93,7 @@ class lab_9{
         System.out.println("Which Method Do You Want To Run?");
             final int METHOD = Console.nextInt();
         switch (METHOD){
-            case 1: //todo
-                //int[] x = {5, 4, 2, 11, 9, 10, 4, 7, 3,2};
-
-                int[] x = {1, 2,3,4,5,6,7,8,9};
-                System.out.println(Arrays.toString(x));
-                System.out.println(Arrays.toString(Method1(x)));
-                /*4, 2, 10, 4, 5, 11, 9, 7, 3 */
+            case 1: System.out.println(Arrays.toString(Method1(Console)));
             break;
 
             case 2: Method2(Console); //finished
