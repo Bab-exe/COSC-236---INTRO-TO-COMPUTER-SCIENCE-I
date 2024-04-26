@@ -136,8 +136,7 @@ public class HW6 {
             case 3: plusScores();
             break;
 
-            default:
-                throw new IllegalArgumentException("\nMethod " +  METHOD + " doesnt exist");
+            default: throw new IllegalArgumentException("\nMethod " +  METHOD + " doesnt exist");
         }     
          
         }catch(Exception e){
