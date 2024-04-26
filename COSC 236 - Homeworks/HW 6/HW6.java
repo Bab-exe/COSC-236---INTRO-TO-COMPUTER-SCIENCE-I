@@ -145,13 +145,6 @@ public class HW6 {
             Console.close();
         }
         
-        
-
-
-        
-
-    
-        
     }
 
 	static int[][] Prompt_Array2d(Scanner Console){
