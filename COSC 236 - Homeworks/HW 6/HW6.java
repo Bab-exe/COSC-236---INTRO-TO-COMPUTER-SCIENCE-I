@@ -5,11 +5,10 @@ import java.io.FileNotFoundException;
 public class HW6 {
 
     /** 1.
-     * a program that prompts the user to enter the number of rows and columns for a 2D array. Then, take input from the console to assign values to each element of the array. Identify the sum of the elements in the diagonal from left to right */
+     * Write a program that prompts the user to enter the number of rows and columns for a 2D array. Then, take input from the console to assign values to each element of the array. Identify the sum of the elements in the diagonal from left to right */
     static int DiagonalSum(Scanner Console){System.out.println();	
 		return DiagonalSum(Prompt_Array2d(Console));
     } 
-    /** exists for method 2 and is the logic for method1 */
     static int DiagonalSum(int[][] arr){System.out.println();
 		int sum =0,length_limit=0;
 
@@ -69,8 +68,8 @@ public class HW6 {
             return false;
         }
         
-        //magic sqaure is true if v_sum == h_sum and v_sum == LEFT_SUM; rightsum can only be correct at the end
-        return (magic_square && v_sum == right_sum ) ;
+        
+        return (magic_square && v_sum == right_sum) ;
 	}
 
      /** 3.
@@ -112,7 +111,7 @@ public class HW6 {
                 output += "\n";
             }
 
-             reader.close();
+            reader.close();
         }catch(FileNotFoundException e){
             System.out.println(FILEPATH + " not found\n" + e.getMessage());
         }
@@ -136,7 +135,8 @@ public class HW6 {
             case 3: plusScores();
             break;
 
-            default: throw new IllegalArgumentException("\nMethod " +  METHOD + " doesnt exist");
+            default:
+                throw new IllegalArgumentException("\nMethod " +  METHOD + " doesnt exist");
         }     
          
         }catch(Exception e){
@@ -144,6 +144,13 @@ public class HW6 {
         }finally{
             Console.close();
         }
+        
+        
+
+
+        
+
+    
         
     }
 
