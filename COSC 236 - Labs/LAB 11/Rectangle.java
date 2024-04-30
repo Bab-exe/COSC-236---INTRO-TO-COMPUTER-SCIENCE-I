@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Rectangle{
 
     private final double x,y,width,height;
@@ -22,9 +20,6 @@ public class Rectangle{
     }
 
     public String toString(){
-        
-        
-
         return "Rectangle[" +
         "x=" + this.x + "," +
         "y=" + this.y + "," +
