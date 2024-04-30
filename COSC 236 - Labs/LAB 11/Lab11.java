@@ -1,13 +1,11 @@
 import java.util.Scanner;
 
-
-
 public class Lab11{
 
     static void Method1(Scanner Console){
         System.out.println("\nProvide A Point To Flip");
-            final double X = Console.nextDouble();
-            final double Y = Console.nextDouble();
+            double X = Console.nextDouble();
+            double Y = Console.nextDouble();
 
         Point point = new Point(X,Y);
             point.flip();
@@ -16,7 +14,6 @@ public class Lab11{
     }
 
     static void Method2(Scanner Console){
-
         System.out.println("\nHow many rectangles do you want to create");
             final int COUNT = Console.nextInt();
 
@@ -30,12 +27,10 @@ public class Lab11{
         boolean bad_index;
         do {
             System.out.println("\nProvide the index number of the rectangle you want to print");
-            INDEX = Console.nextInt();
+                INDEX = Console.nextInt();
 
             bad_index = INDEX >= COUNT;
-            
         }while(bad_index);
-        
 
         System.out.println();
         System.out.println(rectangles[INDEX].toString());
