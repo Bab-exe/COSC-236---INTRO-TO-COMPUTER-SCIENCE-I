@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Lab11{
-
+    
     static void Method1(Scanner Console){
         System.out.println("\nProvide A Point To Flip");
             double X = Console.nextDouble();
@@ -64,8 +64,6 @@ public class Lab11{
 
             case 3: Method3(Console);
             break;
-
-           
 
             default: throw new IllegalArgumentException("\nMethod " +  METHOD + " doesnt exist");
         }     
