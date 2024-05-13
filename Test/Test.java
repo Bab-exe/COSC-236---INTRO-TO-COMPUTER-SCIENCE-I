@@ -1,11 +1,10 @@
-
+import java.util.Scanner;
 import java.util.*;
 
 
 public class Test <Type> {
     public static void main(String[] args) {
-        /*
-            
+        /*   
         System.out.println("Which Method Do You Want To Run?");
             final int METHOD = Console.nextInt();
 
@@ -32,7 +31,6 @@ public class Test <Type> {
             Console.close();
         }
             */
-       
         
     }
 
@@ -46,18 +44,14 @@ public class Test <Type> {
     static void print(int ... x){
         System.out.print(Arrays.toString(x));
     }
-
-
     /** prints a 2d int array */
     static void print(int[] ... x){
-        
         for (int[] x_arr : x){
             print(x_arr);
             System.out.println();
         }
 
     }
-
     /** prints a 2d generic array */
     static <Type> void print(Type[][] x){
         for (Type[] x_arr : x){    
@@ -65,24 +59,17 @@ public class Test <Type> {
         }
 
     }
-   
-
     /** prints a 3d int array */
     static void print(int[][][] arr ){
-
         for (int[][] a: arr)
             print(a);
-        
-
     }
-
     /** prints a 3d generic array */
     static <Type> void print(Type[][][] arr){
         for (Type[][] a: arr)
             print(a);
-        
     } 
-
+    
     /** a better System.out.println() */
     static void println(int ... x){
         print(x);
@@ -102,6 +89,7 @@ public class Test <Type> {
         return rand.nextInt(1 +maximum - minimum) + minimum;
     }
 
+    //**Gets 1d Array from console */
     static int[] Prompt_Array(Scanner Console){
             System.out.println("\nProvide the array size:");
                 final int SIZE = Console.nextInt();
@@ -116,6 +104,7 @@ public class Test <Type> {
             return arr;
     }
 
+    /** Gets 2d array from Console */
     static int[][] Prompt_Array2d(Scanner Console){
         System.out.println("\nProvide the array Rows:");
             final int ROW = Console.nextInt();
@@ -134,7 +123,5 @@ public class Test <Type> {
             System.out.println();
         }
         return arr;
-    }
-   
-   
+    }  
 }
