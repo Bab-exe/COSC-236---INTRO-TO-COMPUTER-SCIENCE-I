@@ -42,7 +42,7 @@ public class Lab_1{
 
     public static void main(String[] args) {
 
-        rockets() //part1
+        rockets(); //part1
        
         //variables(); //part 2 
 
