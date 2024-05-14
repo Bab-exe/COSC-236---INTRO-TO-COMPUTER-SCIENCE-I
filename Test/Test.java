@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Test <Type> {
     public static void main(String[] args) {
+        
         /*   
         System.out.println("Which Method Do You Want To Run?");
             final int METHOD = Console.nextInt();
