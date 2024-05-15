@@ -9,7 +9,7 @@ Repository Birthdate: 1/31/2024
 
 
 # **`All Labs`**
- ### [Lab 1]() 
+ ### [Lab 1](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/2a938eb2bbee3971911158aaefda8d6e7956be67/COSC%20236%20-%20Labs/LAB%201) 
     
  ### [Lab 2]()
     
