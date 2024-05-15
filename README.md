@@ -16,6 +16,7 @@ Repository Birthdate: 1/31/2024
     Primitive data and java elements
         for loop
  ### [Lab 3](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Labs/LAB%203)
+    Introduction to Parameters and Objects
     
  ### [Lab 4](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Labs/LAB%204)
     Conditional Execution
