@@ -14,7 +14,7 @@ Repository Birthdate: 1/31/2024
  ### [Lab 2](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/2a938eb2bbee3971911158aaefda8d6e7956be67/COSC%20236%20-%20Labs/LAB%202)
     Primitive data and java elements
         for loop
- ### [Lab 3](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Labs/LAB%203)
+ ### [Lab 3](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/main/COSC%20236%20-%20Labs/LAB%203)
     Introduction to Parameters and Objects
     
  ### [Lab 4](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Labs/LAB%204)
