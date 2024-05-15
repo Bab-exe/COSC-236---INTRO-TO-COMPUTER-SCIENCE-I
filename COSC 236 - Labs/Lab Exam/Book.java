@@ -17,7 +17,6 @@ public class Book {
 
     @Override
     public String toString(){
-        
         return String.format
         (
         "\nBook Information:\n" +
