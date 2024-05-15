@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # COSC-236---INTRO-TO-COMPUTER-SCIENCE-I
 ## All Assignments
 Repository Birthdate: 1/31/2024
@@ -67,6 +66,3 @@ Repository Birthdate: 1/31/2024
 
  ### [HW 6](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Homeworks/HW%206)
     
-=======
-?
->>>>>>> origin/main
