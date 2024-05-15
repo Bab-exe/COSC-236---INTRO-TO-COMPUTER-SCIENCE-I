@@ -3,7 +3,6 @@
 Repository Birthdate: 1/31/2024
 
 
-#
 | Labs ([Files](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Labs)) | Homeworks ([Files](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Homeworks)) 
 | - | - |
 
