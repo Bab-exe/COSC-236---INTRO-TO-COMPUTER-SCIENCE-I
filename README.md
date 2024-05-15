@@ -48,7 +48,7 @@ Repository Birthdate: 1/31/2024
  ### [Lab 12](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Labs/LAB%2012)
     Recursion
 
- ### [Lab Exam](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Labs/Lab%20Exam)
+ ## [Lab Exam](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Labs/Lab%20Exam)
     5 questions total 
     must complete 3.
 
