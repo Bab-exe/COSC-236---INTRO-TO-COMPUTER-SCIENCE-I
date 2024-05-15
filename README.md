@@ -4,7 +4,7 @@ Repository Birthdate: 1/31/2024
 
 
 #
-| Labs ([Files](lab link), [Information](lab info)) | Homeworks ([Files](HW link) , [Information](HW Info)) 
+| Labs ([Files](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Labs)) | Homeworks ([Files](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Homeworks)) 
 | - | - |
 
 
@@ -36,16 +36,16 @@ Repository Birthdate: 1/31/2024
  ### [Lab Exam](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Labs/Lab%20Exam)
 
     
-# **`All Homework`**
- ### [HW 1]()
-    Most Recent Submission: 9/29/2022
-    Due 9/29/2022 by 11:00 am.
- ### [HW 2]()
-    Most Recent Submission: 10/20/2022
-    Due 10/20/2022 by 11:00 am
- ### [HW 3]()
-    Most Recent Submission: 11/2/2022
-    Due 11/3/2022 by 11:00 am
- ### [HW 4]()
-    Most Recent Submission: 11/17/2022
-    Due 11/17/2022 by 11:00 am 
+# **`All Homeworks`**
+ ### [HW 1](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Homeworks/HW%201)
+    
+ ### [HW 2](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Homeworks/HW%202)
+    
+ ### [HW 3](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Homeworks/HW%203)
+    
+ ### [HW 4](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Homeworks/HW%204)
+
+ ### [HW 5](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Homeworks/HW%205)
+
+ ### [HW 6](https://github.com/Bab-exe/COSC-236---INTRO-TO-COMPUTER-SCIENCE-I/tree/README/COSC%20236%20-%20Homeworks/HW%206)
+    
